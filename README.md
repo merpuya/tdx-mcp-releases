@@ -18,13 +18,13 @@ You do not need administrator rights, Node or git.
 **Mac.** Open Terminal, paste this line and press Return:
 
 ```
-curl -fsSL https://tdx-mcp-claude.vercel.app/downloads/install.sh | zsh -f
+curl -fsSL https://scjcb.dev/downloads/install.sh | zsh -f
 ```
 
 **Windows.** Open PowerShell, paste this line and press Enter:
 
 ```
-irm https://tdx-mcp-claude.vercel.app/downloads/install.ps1 | iex
+irm https://scjcb.dev/downloads/install.ps1 | iex
 ```
 
 Then quit Claude Desktop completely and open it again. The installer never closes Claude for you, and closing the window is not enough:
@@ -92,13 +92,13 @@ If Claude does not list the TDX tools at all:
 Mac:
 
 ```
-curl -fsSL https://tdx-mcp-claude.vercel.app/downloads/install.sh | zsh -f -s -- --uninstall
+curl -fsSL https://scjcb.dev/downloads/install.sh | zsh -f -s -- --uninstall
 ```
 
 Windows:
 
 ```
-& ([scriptblock]::Create((irm https://tdx-mcp-claude.vercel.app/downloads/install.ps1))) -Uninstall
+& ([scriptblock]::Create((irm https://scjcb.dev/downloads/install.ps1))) -Uninstall
 ```
 
 Then quit and reopen Claude Desktop. Your saved TDX sign-in stays on your computer unless you ask for it to be removed.
