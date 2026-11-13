@@ -4,6 +4,14 @@ This adds TeamDynamix (TDX) tools to Claude Desktop for IT staff at Cornell. You
 
 This repository holds the signed release packages and the installers. It is a beta: it is not an official Cornell or TeamDynamix product, and the source code is in a separate, private repository.
 
+## Guides
+
+- [Quick start for Mac](docs/QUICKSTART-MAC.md)
+- [Quick start for Windows](docs/QUICKSTART-WINDOWS.md)
+- [Writing knowledge-base articles](docs/KB-AUTHORING.md)
+
+The rest of this page is the short version.
+
 ## What you need
 
 - Claude Desktop, already installed and signed in.
@@ -60,6 +68,8 @@ Claude can help you write a knowledge-base article from your own words, a Word d
 4. Say "Create the article in TDX", then "Submit it for review."
 
 A draft is a folder on your computer, in `Claude/TDX KB Drafts` under your home folder. Nothing reaches TDX until you ask Claude to create, update, submit or publish an article.
+
+The full guide, with screenshots, categories, size limits and what to do when something goes wrong, is [docs/KB-AUTHORING.md](docs/KB-AUTHORING.md).
 
 ## Updating
 
